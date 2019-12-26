@@ -3,7 +3,7 @@ package utils
 import (
 	"log"
 
-	"github.com/go-ignite/ignite/models"
+	"github.com/zzh7982/ignite/models"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/go-xorm/xorm"
 	_ "github.com/mattn/go-sqlite3"

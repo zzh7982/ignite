@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-ignite/ignite/controllers"
-	"github.com/go-ignite/ignite/utils"
+	"github.com/zzh7982/ignite/controllers"
+	"github.com/zzh7982/ignite/utils"
 )
 
 var (

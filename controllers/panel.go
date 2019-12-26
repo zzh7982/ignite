@@ -8,9 +8,9 @@ import (
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/go-ignite/ignite/models"
-	"github.com/go-ignite/ignite/ss"
-	"github.com/go-ignite/ignite/utils"
+	"github.com/zzh7982/ignite/models"
+	"github.com/zzh7982/ignite/ss"
+	"github.com/zzh7982/ignite/utils"
 )
 
 var (
