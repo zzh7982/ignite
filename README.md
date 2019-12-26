@@ -1,12 +1,12 @@
-![](https://github.com/zzh7982/ignite/raw/master/snapshots/ignite.png)
+![](https://github.com/go-ignite/ignite/raw/master/snapshots/ignite.png)
 ---
 
-[![Release](http://github-release-version.herokuapp.com/github/go-ignite/ignite/release.svg?style=flat)](https://github.com/zzh7982/ignite/releases/latest)
+[![Release](http://github-release-version.herokuapp.com/github/go-ignite/ignite/release.svg?style=flat)](https://github.com/go-ignite/ignite/releases/latest)
 [![Build Status](https://travis-ci.org/go-ignite/ignite.svg?branch=master)](https://travis-ci.org/go-ignite/ignite)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zzh7982/ignite)](https://goreportcard.com/report/github.com/zzh7982/ignite)
+[![Go Report Card](https://goreportcard.com/badge/github.com/go-ignite/ignite)](https://goreportcard.com/report/github.com/go-ignite/ignite)
 [![Chat Telegram](https://img.shields.io/badge/chat-telegram-brightgreen.svg)](https://t.me/joinchat/FuddvBLqni3u5wJmNwnc0w)
 [![Microbadger Image](https://images.microbadger.com/badges/image/goignite/ignite.svg)](https://microbadger.com/images/goignite/ignite)
-[![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/zzh7982/ignite/blob/master/LICENSE)
+[![DUB](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/go-ignite/ignite/blob/master/LICENSE)
 
 A SS(R) panel for managing multiple users, powered by Go &amp; Docker.
 
@@ -20,7 +20,7 @@ A SS(R) panel for managing multiple users, powered by Go &amp; Docker.
 
 # Overview
 
-![https://github.com/zzh7982/ignite/raw/master/snapshots/create.gif](https://github.com/zzh7982/ignite/raw/master/snapshots/create.gif)
+![https://github.com/go-ignite/ignite/raw/master/snapshots/create.gif](https://github.com/go-ignite/ignite/raw/master/snapshots/create.gif)
 
 # Features
 
@@ -32,15 +32,15 @@ A SS(R) panel for managing multiple users, powered by Go &amp; Docker.
 
 # Snapshots
 
-![https://github.com/zzh7982/ignite/raw/master/snapshots/1.png](https://github.com/zzh7982/ignite/raw/master/snapshots/1.png)
+![https://github.com/go-ignite/ignite/raw/master/snapshots/1.png](https://github.com/go-ignite/ignite/raw/master/snapshots/1.png)
 
-![https://github.com/zzh7982/ignite/raw/master/snapshots/2.png](https://github.com/zzh7982/ignite/raw/master/snapshots/2.png)
+![https://github.com/go-ignite/ignite/raw/master/snapshots/2.png](https://github.com/go-ignite/ignite/raw/master/snapshots/2.png)
 
-![https://github.com/zzh7982/ignite/raw/master/snapshots/3.png](https://github.com/zzh7982/ignite/raw/master/snapshots/3.png)
+![https://github.com/go-ignite/ignite/raw/master/snapshots/3.png](https://github.com/go-ignite/ignite/raw/master/snapshots/3.png)
 
 # Install
 
-Please refer to [《ignite中文安装指南》](https://github.com/zzh7982/ignite/wiki)
+Please refer to [《ignite中文安装指南》](https://github.com/go-ignite/ignite/wiki)
 
 # Build
 
@@ -62,4 +62,4 @@ Pull request is welcome!
 * Create pull request
 
 # License
-[MIT License](https://github.com/zzh7982/ignite/blob/master/LICENSE)
+[MIT License](https://github.com/go-ignite/ignite/blob/master/LICENSE)

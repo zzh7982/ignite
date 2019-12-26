@@ -6,8 +6,8 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
 	"github.com/gin-gonic/gin"
-	"github.com/zzh7982/ignite/ss"
-	"github.com/zzh7982/ignite/utils"
+	"github.com/go-ignite/ignite/ss"
+	"github.com/go-ignite/ignite/utils"
 	"github.com/go-xorm/xorm"
 )
 
@@ -42,9 +42,9 @@ func (self *MainRouter) Initialize(r *gin.Engine) {
 		if err := ss.PullImage(ss.SS_IMAGE); err != nil {
 			log.Printf("Pull image [%s] error: %s\n", ss.SS_IMAGE, err.Error())
 		}
-		//if err := ss.PullImage(ss.SSR_IMAGE); err != nil {
-		//	log.Printf("Pull image [%s] error: %s\n", ss.SSR_IMAGE, err.Error())
-		//}
+		if err := ss.PullImage(ss.SSR_IMAGE); err != nil {
+			log.Printf("Pull image [%s] error: %s\n", ss.SSR_IMAGE, err.Error())
+		}
 	}()
 	self.router.Run(utils.APP_Address)
 }

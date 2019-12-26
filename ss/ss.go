@@ -10,8 +10,8 @@ import (
 	"time"
 
 	docker "github.com/fsouza/go-dockerclient"
-	"github.com/zzh7982/ignite/models"
-	"github.com/zzh7982/ignite/utils"
+	"github.com/go-ignite/ignite/models"
+	"github.com/go-ignite/ignite/utils"
 )
 
 const (
@@ -43,7 +43,7 @@ func CreateContainer(serverType, name, method, password string, port int) (*mode
 	default:
 		return nil, errors.New("invalid server type")
 	}
-	//PullImage(image, true)
+	PullImage(image, true)
 	if password == "" {
 		password = utils.NewPasswd(16)
 	}
