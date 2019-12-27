@@ -1,9 +1,9 @@
-FROM golang:1.9 as builder
+FROM instrumentisto/dep:latest as builder
 ARG VERSION
 WORKDIR /go/src/github.com/zzh7982/ignite
 COPY . .
-RUN CGO_ENABLED=1 GOOS=linux GOARCH=amd64 go build -ldflags "-X main.version=${VERSION}" -o ignite .
-
+RUN dep ensure -v \
+        && CGO_ENABLED=1 GOOS=linux GOARCH=amd64 go build -ldflags "-X main.version=${VERSION}" -o ignite .
 
 FROM alpine
 LABEL maintainer="go-ignite"
